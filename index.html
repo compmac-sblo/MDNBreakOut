@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <title>Gamedev Canvas Workshop</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    canvas {
+      background: #eee;
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="myCanvas" width="480" height="320"></canvas>
+
+  <script>
+    // JavaScriptのコードはここ
+    const canvas = document.getElementById("myCanvas");
+    const ctx = canvas.getContext("2d");
+
+    ctx.beginPath();
+    ctx.rect( 20, 40, 50, 50);
+    ctx.fillStyle = "#FF0000";
+    ctx.fill();
+    xtx.closePath();
+  </script>
+</body>
+</html>
